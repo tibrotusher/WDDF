@@ -64,7 +64,7 @@ footer {
   justify-content: center;
   flex-direction: column;
 }
-#hero h1 {
+#hero h2 {
   font-size: 25px;
   margin-bottom: 10px;
 }
