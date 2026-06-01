@@ -1,0 +1,13 @@
+body {
+  background: url(bg.jpg);
+  background-attachment: fixed;
+}
+div {
+  background-color:rgba(246, 185, 59,0.7);
+  background-image: url(pa.jpg);
+  background-size: 150px 150px; 
+  background-repeat: no-repeat;
+  background-position: center right;
+  /* shortcut */
+  background: #f78fb3 url(pa.jpg) no-repeat center;
+}
