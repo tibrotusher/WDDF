@@ -36,6 +36,7 @@ div {
   background: #786fa6;
   flex-basis: 60%;
   padding: 25px 30px;
+  color: rgb(255, 255, 255);
 }
 aside {
   padding: 25px 30px;

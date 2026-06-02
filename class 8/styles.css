@@ -1,0 +1,15 @@
+.first {
+  background-color: rgb(0, 148, 50);
+  width: 400px;
+  height: 200px;
+  margin: 0 auto;
+  padding: 0;
+  position: relative;
+}
+.second {
+  background-color: #ff4757;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  position: absolute;
+}
