@@ -1,4 +1,9 @@
-.first {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* .first {
   background-color: rgb(0, 148, 50);
   width: 400px;
   height: 200px;
@@ -12,4 +17,18 @@
   height: 100px;
   border-radius: 50px;
   position: absolute;
+} */
+.nav_bar {
+  background-color: #0652DD;
+  text-align: center; 
+  overflow: hidden;
+}
+.nav_bar a {
+  font-size: 25px;
+  text-decoration: none;
+  padding: 10px 14px;
+  color: white; 
+}
+a:hover {
+  background:#d2dae2;
 }
