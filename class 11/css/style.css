@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header_section {
+  background-color: #2ed573;
+  padding: 14px;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.container .box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.box .logo img {
+  width: 150px;
+}
+.menu ul li {
+  list-style: none;
+  display: inline-block;
+}
+.menu a {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 10px;
+  font-size: 24px;
+  text-align: center;
+  transition: 0.7s;
+}
+.menu a:hover {
+  color: blue;
+  transition: 0.7s;
+  border-bottom: 2px solid black;
+}
+.hero {
+  background-image: url('../img/about-3.webp');
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero .banner .content h1 {
+  text-align: center;
+  font-size: 50px;
+  color: #130f40;
+}
+.hero .banner .content p {
+  text-align: center;
+  text-wrap: inherit;
+  padding: 20px 30px;
+  font-size: 30px;
+  color: #ffffff;
+}
+.hero .banner .content .btn button {
+  padding: 20px 40px;
+  color: #ffffff;
+  background-color: #f6e58d;
+  border: none;
+  border-radius: 20px;
+  font-size: 25px;
+}
+.hero .banner .content .btn {
+  text-align: center;
+}
+.hero .banner .content .btn button:hover {
+  color: #70a1ff;
+}
