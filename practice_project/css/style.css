@@ -53,3 +53,9 @@
 .basic_p li {
   list-style: none;
 }
+.btn_b {
+  display: inline-block;
+  text-align: center;
+  background: #ffff;
+  border-radius: 20px;
+}

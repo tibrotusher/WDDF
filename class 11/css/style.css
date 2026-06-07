@@ -2,28 +2,29 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.header_section {
-  background-color: #2ed573;
+#header_section {
+  background: #2ed573;
   padding: 14px;
 }
 .container {
   max-width: 1200px;
   margin: 0 auto;
 }
-.container .box {
+.container #box {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.box .logo img {
+.container #box #logo img {
   width: 150px;
 }
-.menu ul li {
+#menu ul li {
   list-style: none;
   display: inline-block;
 }
-.menu a {
+#menu a {
   text-decoration: none;
   color: #ffffff;
   padding: 10px;
@@ -31,13 +32,13 @@
   text-align: center;
   transition: 0.7s;
 }
-.menu a:hover {
+#menu a:hover {
   color: blue;
   transition: 0.7s;
   border-bottom: 2px solid black;
 }
-.hero {
-  background-image: url('../img/about-3.webp');
+#hero {
+  background-image: url('../img/about-2.webp');
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
@@ -45,19 +46,22 @@
   justify-content: center;
   align-items: center;
 }
-.hero .banner .content h1 {
+#hero #banner #content h1 {
   text-align: center;
   font-size: 50px;
   color: #130f40;
 }
-.hero .banner .content p {
+#hero #banner #content img {
+  width: 100px;
+}
+#hero #banner #content p {
   text-align: center;
   text-wrap: inherit;
   padding: 20px 30px;
   font-size: 30px;
   color: #ffffff;
 }
-.hero .banner .content .btn button {
+#hero #banner #content .btn button {
   padding: 20px 40px;
   color: #ffffff;
   background-color: #f6e58d;
@@ -65,9 +69,42 @@
   border-radius: 20px;
   font-size: 25px;
 }
-.hero .banner .content .btn {
+#hero #banner #content .btn {
   text-align: center;
 }
-.hero .banner .content .btn button:hover {
+#hero #banner #content .btn button:hover {
   color: #70a1ff;
+}
+#footer_section #main_div {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 20px;
+  padding: 30px;
+  background: #218c74;
+}
+#footer_section #main_div #tag h2 {
+  display: inline-block;
+  font-size: 40px;
+  color: #ffffff;
+}
+#footer_section #main_div #tag a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #ffffff;
+}
+#footer_section #main_div #tag p {
+  color: #ffffff;
+  font-size: 20px;
+}
+#service h2 {
+  color: #ffffff;
+  font-size: 40px;
+}
+#service #direct li {
+  list-style: none;
+}
+#service #direct a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #ffffff;
 }
