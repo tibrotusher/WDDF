@@ -32,22 +32,22 @@
   font-size: 24px;
   font-weight: 800;
 }
-#hero .container #banner img {
+#hero #banner img {
   width: 100%;
   height: 95vh;
   background-size: cover;
 }
-#gallery {
+#gallery .container {
   padding: 40px;
 }
-#gallery #img_folder #word h2 {
+#gallery .container #img_folder #word h2 {
   text-align: center;
   padding-bottom: 30px;
   color: #2d3436;
   font-size: 30px;
   font-weight: 700;
 }
-#gallery #img_folder #card {
+#gallery .container #img_folder #card {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   column-gap: 14px;
@@ -58,6 +58,9 @@
   padding-top: 25px;
   border-radius: 20px;
   box-shadow: 2px 5px 5px gray;
+}
+#gallery #img_folder #card:hover {
+  image-orientation: from-image;
 }
 #special .container {
   padding: 60px;
@@ -79,6 +82,8 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   column-gap: 10px;
+  align-items: center;
+  width: 100%;
 }
 #special #offers #menu .one {
   border: 0px solid gray;
@@ -129,4 +134,74 @@
 }
 #farm button:hover {
   text-transform: uppercase;
+}
+#add {
+  padding: 40px;
+  background-color: #2d3436;
+}
+#add #text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#add #text #place h6 {
+  color: #ffffff;
+  font-size: 18px;
+}
+.fa-paper-plane {
+  font-size: 20px;
+  padding: 10px;
+  color: #fbc531;
+  text-align: center;
+}
+#place .ad {
+  color: #f5f6fa;
+}
+#number .fa-tty {
+  color: #fbc531;
+  padding: 10px;
+  font-size: 20px;
+}
+#number h6 {
+  color: #f5f6fa;
+  font-size: 18px;
+}
+#number p {
+  color: #f5f6fa;
+}
+#mail .fa-envelope {
+  padding: 10px;
+  color: #fbc531;
+  font-size: 20px;
+}
+#mail h6 {
+  color: #f5f6fa;
+  font-size: 18px;
+}
+#mail p {
+  color: #f5f6fa;
+}
+#footer {
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#map {
+  padding: 50px;
+}
+#footer #pic img {
+  width: 100px;
+}
+#small .fa-facebook {
+  color: blue;
+  font-size: 20px;
+}
+#small .fa-square-x-twitter {
+  color: #2d3436;
+  font-size: 20px;
+}
+#small .fa-square-whatsapp {
+  color: green;
+  font-size: 20px;
 }
